@@ -1,0 +1,18 @@
+ReturnDir = &(PWD)tests/
+ExportFile = result.plt
+
+DomainLength = 9.0
+DiscontinuityPosition = 3.0
+NumCells = 1000
+Gamma = 1.4
+
+Time = 6
+
+DensityL = 1.0
+VelocityL = 0.0
+PressureL = 0.04
+DensityR = 0.001
+VelocityR = 0.0
+PressureR = 4.0e-10
+
+Tolerance = 1.0e-6
